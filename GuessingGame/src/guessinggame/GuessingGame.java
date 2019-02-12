@@ -1,7 +1,3 @@
-// GUI version of HiLo Guessing Game
-// Written by Laura Cronin
-// Written on 10 Feb 2019
-
 package guessinggame;
 
 import javax.swing.JFrame;
