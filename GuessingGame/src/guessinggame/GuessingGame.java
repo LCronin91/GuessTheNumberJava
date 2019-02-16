@@ -116,7 +116,7 @@ public class GuessingGame extends JFrame
 	public void newGame()
 	{
 		Object[] options = {"Between 1 and 10", "Between 1 and 100", "Between 1 and 1000", "Exit"};
-		int gameLevel = JOptionPane.showOptionDialog(getParent(), "Choose a level to play", "Game Level", JOptionPane.YES_NO_CANCEL_OPTION,
+		gameLevel = JOptionPane.showOptionDialog(getParent(), "Choose a level to play", "Game Level", JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE, null, options, options[0]);
 		
 		txtGuess.setText("");
