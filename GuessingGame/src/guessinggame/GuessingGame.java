@@ -99,6 +99,10 @@ public class GuessingGame extends JFrame
 				{
 					System.exit(0);
 				}
+				else
+				{
+					newGame();
+				}
 			}
 		} 
 		catch (Exception e)
